@@ -1,0 +1,32 @@
+.card{
+    width: 80%;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #E8F0F2;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.card > img{
+    margin: 5px auto;
+    width: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.card > h2{
+    text-align: center;
+    color: #22577A;
+}
+.card > ul   {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.card > ul > div > li {
+    color: #38A3A5;
+    margin-bottom: 1rem;
+}
+
